@@ -14,5 +14,6 @@ It takes a CSV input file containing a list of hostnames.
 The first column contains the hostname or domanin name.  
 The second column contains the port number. 
 Both columns are required and the CSV must be named "input_hostnames.csv".
-
 The script will output a new CSV containing the IP addresses in a file called "output_ip_address.csv".
+
+An incorrect hostname may cause a socket error.
